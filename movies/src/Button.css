@@ -1,0 +1,35 @@
+.toggle-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #0062cc;
+}
+
+.dark-mode .toggle-btn {
+  background-color: #343a40;
+}
+
+.dark-mode .toggle-btn:hover {
+  background-color: #1d2124;
+}
+
+.dark-mode .toggle-btn::before {
+  content: '\f185';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.light-mode .toggle-btn::before {
+  content: '\f186';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 5px;
+}
